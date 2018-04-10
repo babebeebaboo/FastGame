@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C72EA812797BBA0B2BCCCD3 /* Pods_FastGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164F7F097CA22033BD82DF42 /* Pods_FastGame.framework */; };
 		3B658711207BC877008D7EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B658710207BC877008D7EC3 /* AppDelegate.swift */; };
 		3B658713207BC877008D7EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B658712207BC877008D7EC3 /* ViewController.swift */; };
 		3B658716207BC877008D7EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B658714207BC877008D7EC3 /* Main.storyboard */; };
 		3B658718207BC877008D7EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B658717207BC877008D7EC3 /* Assets.xcassets */; };
 		3B65871B207BC877008D7EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B658719207BC877008D7EC3 /* LaunchScreen.storyboard */; };
 		3B658723207BCFC8008D7EC3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B658722207BCFC8008D7EC3 /* RegisterController.swift */; };
+		3B658725207D3BFF008D7EC3 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B658724207D3BFF008D7EC3 /* ProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14D7608F68CE5E0C9BB38693 /* Pods-FastGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastGame/Pods-FastGame.release.xcconfig"; sourceTree = "<group>"; };
+		164F7F097CA22033BD82DF42 /* Pods_FastGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B65870D207BC877008D7EC3 /* FastGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B658710207BC877008D7EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B658712207BC877008D7EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		3B65871A207BC877008D7EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B65871C207BC877008D7EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B658722207BCFC8008D7EC3 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		3B658724207D3BFF008D7EC3 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		8E7EFB078AADF59D73CC9980 /* Pods-FastGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastGame/Pods-FastGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C72EA812797BBA0B2BCCCD3 /* Pods_FastGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DE5ECC928A36C6E30542983 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E7EFB078AADF59D73CC9980 /* Pods-FastGame.debug.xcconfig */,
+				14D7608F68CE5E0C9BB38693 /* Pods-FastGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25D9E52332EE3ABCFBE2FCEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				164F7F097CA22033BD82DF42 /* Pods_FastGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3B658704207BC877008D7EC3 = {
 			isa = PBXGroup;
 			children = (
 				3B65870F207BC877008D7EC3 /* FastGame */,
 				3B65870E207BC877008D7EC3 /* Products */,
+				0DE5ECC928A36C6E30542983 /* Pods */,
+				25D9E52332EE3ABCFBE2FCEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				3B658710207BC877008D7EC3 /* AppDelegate.swift */,
 				3B658712207BC877008D7EC3 /* ViewController.swift */,
 				3B658722207BCFC8008D7EC3 /* RegisterController.swift */,
+				3B658724207D3BFF008D7EC3 /* ProductViewController.swift */,
 				3B658714207BC877008D7EC3 /* Main.storyboard */,
 				3B658717207BC877008D7EC3 /* Assets.xcassets */,
 				3B658719207BC877008D7EC3 /* LaunchScreen.storyboard */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B65871F207BC877008D7EC3 /* Build configuration list for PBXNativeTarget "FastGame" */;
 			buildPhases = (
+				56CBFB006E2B1BF73829CF52 /* [CP] Check Pods Manifest.lock */,
 				3B658709207BC877008D7EC3 /* Sources */,
 				3B65870A207BC877008D7EC3 /* Frameworks */,
 				3B65870B207BC877008D7EC3 /* Resources */,
+				F4ABB88F8CB96B555D36C4EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +163,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56CBFB006E2B1BF73829CF52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4ABB88F8CB96B555D36C4EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FastGame/Pods-FastGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastGame/Pods-FastGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B658709207BC877008D7EC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +211,7 @@
 			files = (
 				3B658713207BC877008D7EC3 /* ViewController.swift in Sources */,
 				3B658711207BC877008D7EC3 /* AppDelegate.swift in Sources */,
+				3B658725207D3BFF008D7EC3 /* ProductViewController.swift in Sources */,
 				3B658723207BCFC8008D7EC3 /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +347,7 @@
 		};
 		3B658720207BC877008D7EC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7EFB078AADF59D73CC9980 /* Pods-FastGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,6 +364,7 @@
 		};
 		3B658721207BC877008D7EC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D7608F68CE5E0C9BB38693 /* Pods-FastGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
