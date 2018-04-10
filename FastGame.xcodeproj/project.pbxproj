@@ -12,6 +12,7 @@
 		3B658716207BC877008D7EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B658714207BC877008D7EC3 /* Main.storyboard */; };
 		3B658718207BC877008D7EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B658717207BC877008D7EC3 /* Assets.xcassets */; };
 		3B65871B207BC877008D7EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B658719207BC877008D7EC3 /* LaunchScreen.storyboard */; };
+		3B658723207BCFC8008D7EC3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B658722207BCFC8008D7EC3 /* RegisterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3B658717207BC877008D7EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B65871A207BC877008D7EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B65871C207BC877008D7EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B658722207BCFC8008D7EC3 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3B658710207BC877008D7EC3 /* AppDelegate.swift */,
 				3B658712207BC877008D7EC3 /* ViewController.swift */,
+				3B658722207BCFC8008D7EC3 /* RegisterController.swift */,
 				3B658714207BC877008D7EC3 /* Main.storyboard */,
 				3B658717207BC877008D7EC3 /* Assets.xcassets */,
 				3B658719207BC877008D7EC3 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				3B658713207BC877008D7EC3 /* ViewController.swift in Sources */,
 				3B658711207BC877008D7EC3 /* AppDelegate.swift in Sources */,
+				3B658723207BCFC8008D7EC3 /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8R853UY7D;
 				INFOPLIST_FILE = FastGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.supakornbabe.FastGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8R853UY7D;
 				INFOPLIST_FILE = FastGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.supakornbabe.FastGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
